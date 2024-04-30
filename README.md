@@ -1,4 +1,4 @@
-# React Chrome Extension Boilerplate with Vite and TypeScript and tailwindcss
+# React Chrome Extension Boilerplate Starter with Vite and TypeScript and tailwindcss
 
 ![GitHub license](https://img.shields.io/github/license/himalaya0035/chrome-extension-boilerplate-react-vite-typescript)
 ![React](https://img.shields.io/badge/react-18.x-blue)
@@ -39,7 +39,7 @@ Follow these steps to get the boilerplate code up and running:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://gitlab.itcjf.com/flatjs-next/chrome-extension-bolierplate
+   git clone https://github.com/hyperse-io/chrome-extension-starter
    ```
 
 2. **Navigate to the project folder:**
@@ -97,12 +97,16 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-⭐️ If you find this boilerplate helpful, consider giving it a star on [GitHub](https://github.com/himalaya0035/chrome-extension-boilerplate-react-vite-typescript).
+⭐️ If you find this boilerplate helpful, consider giving it a star on [GitHub](https://github.com/hyperse-io/chrome-extension-starter).
 
 ---
 
 Happy coding! If you have any questions or need further assistance, please don't hesitate to reach out.
 
-**Disclaimer:** This project was created by [Himalaya Gupta](https://github.com/himalaya0035/), for the community, to address the lack of comprehensive resources for building Chrome extensions with React, Vite, TypeScript, and Tailwind CSS. It is not officially endorsed by any of the mentioned technologies or organizations.
+**Disclaimer:** This project was created by [Yingchun Tian](https://github.com/hyperse-io/), for the community, to address the lack of comprehensive resources for building Chrome extensions with React, Vite, TypeScript, and Tailwind CSS. It is not officially endorsed by any of the mentioned technologies or organizations.
 
 ---
+
+## About us [Hyperse-io](https://github.com/hyperse-io) - [Hyperse.net](https://www.hyperse.net)
+
+![Hyperse-io](https://avatars.githubusercontent.com/u/151103336?s=100&v=4)
