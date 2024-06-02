@@ -4,8 +4,7 @@
 ![React](https://img.shields.io/badge/react-18.x-blue)
 ![TypeScript](https://img.shields.io/badge/typescript-5.x-blue)
 ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-3.x-blue)
-![Tailwind CSS](https://img.shields.io/badge/tailwindcss-3.x-blue)
-![shadcn](https://ui.shadcn.com/docs)
+![Shadcn UI](https://img.shields.io/badge/shadcn-ui-blue)
 
 This repository aims to provide an easy-to-use and minimilastic foundation for developing Chrome extensions using modern web technologies, including React for building the user interface, TypeScript for type-safe development, Tailwind CSS for effortless styling, and Vite as the module bundler for speedy development.
 
