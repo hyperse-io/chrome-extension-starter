@@ -1,11 +1,13 @@
-import { base, defineConfig } from '@hyperse/eslint-config-hyperse';
+import { defineConfig, reactjs } from '@hyperse/eslint-config-hyperse';
 
 export default defineConfig([
-  // ...typescript
-  ...base,
+  ...reactjs,
   {
     rules: {
       '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-deprecated': 'off',
+      'tailwindcss/no-custom-classname': 'off',
+      'react-hooks/exhaustive-deps': 'off',
     },
   },
 ]);

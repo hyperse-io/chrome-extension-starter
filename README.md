@@ -63,14 +63,12 @@ Follow these steps to get the boilerplate code up and running:
    This command will start the development server using Vite, enabling hot module replacement and allowing you to see your changes in real.
 
 5. **Load the extension in Chrome:**
-
    - Open the Chrome browser.
    - Navigate to `chrome://extensions/`.
    - Turn on the "Developer mode" toggle in the top-right corner.
    - Click the "Load unpacked" button and select the `dist` folder inside your project directory.
-
+   - HMR in brower, normally we can access url: `http://localhost:5173`
 6. **Start Developing:**
-
    - The popup UI can be found in the `src/App.tsx` directory.
    - Customize the manifest template in `src/manifest.json` and let CRXJS handle the dynamic manifest generation.
    - The support for background scripts, options page, content scripts is already configured. Customise them in their respective folder.

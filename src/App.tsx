@@ -1,32 +1,16 @@
 import { useEventCallback } from 'usehooks-ts';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
-import { Button } from './components/ui/button';
 import './App.css';
+import { Button } from '@heroui/react';
+
 function App() {
   const handleClick = useEventCallback(() => {
     alert(1);
   });
   // start bilding your popup app here
   return (
-    <h1 className="text-3xl text-center font-bold underline text-red-600">
+    <h1 className="text-center text-3xl font-bold text-red-600 underline">
       Hello world!
-      <Button onClick={handleClick}>test</Button>
-      <Select>
-        <SelectTrigger className="w-[180px]">
-          <SelectValue placeholder="Theme" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="light">Light</SelectItem>
-          <SelectItem value="dark">Dark</SelectItem>
-          <SelectItem value="system">System</SelectItem>
-        </SelectContent>
-      </Select>
+      <Button onPress={handleClick}>test</Button>
     </h1>
   );
 }
